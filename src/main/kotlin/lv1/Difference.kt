@@ -1,10 +1,10 @@
 package lv1
 
-class Difference
+class Difference {
         fun defference(num1: Int, num2: Int): Int {
-                var answer: Int = 0
-                answer = num1 - num2
+                var answer = num1 - num2
                 return answer
+        }
 }
 
 fun main() {
@@ -12,6 +12,6 @@ fun main() {
         var num1 = readln().toInt()
         var num2 = readln().toInt()
 
-        println("${defference(num1, num2)}")
+        println("${Difference().defference(num1, num2)}")
     }
 
